@@ -1,6 +1,6 @@
 # Hackgt 8 Project - Caravan App
 
-Use xcode
+Use xcode (Swift)
 brew install cocoapods
   - This is for the Firebase database
 
