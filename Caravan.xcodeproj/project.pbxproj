@@ -28,8 +28,8 @@
 		BC0E376227250BFD00D26C4A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E376127250BFD00D26C4A /* MessageRow.swift */; };
 		BC0E37642725172C00D26C4A /* BlogCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E37632725172C00D26C4A /* BlogCardView.swift */; };
 		BC0E37662725175800D26C4A /* BlogFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E37652725175800D26C4A /* BlogFeedView.swift */; };
-		BC0E376C2725300F00D26C4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC0E376B2725300F00D26C4A /* GoogleService-Info.plist */; };
-		BC0E376E2725301900D26C4A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E376D2725301900D26C4A /* Database.swift */; };
+		BC885C25272546BE005EDDB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC885C24272546BE005EDDB3 /* GoogleService-Info.plist */; };
+		BC885C27272546CC005EDDB3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC885C26272546CC005EDDB3 /* Database.swift */; };
 		E796D65CD76818011C692F62 /* Pods_Caravan_CaravanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD285A5769E604599FDCDCF /* Pods_Caravan_CaravanUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,8 +84,8 @@
 		BC0E376127250BFD00D26C4A /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
 		BC0E37632725172C00D26C4A /* BlogCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCardView.swift; sourceTree = "<group>"; };
 		BC0E37652725175800D26C4A /* BlogFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogFeedView.swift; sourceTree = "<group>"; };
-		BC0E376B2725300F00D26C4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BC0E376D2725301900D26C4A /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../../Database.swift; sourceTree = "<group>"; };
+		BC885C24272546BE005EDDB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC885C26272546CC005EDDB3 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		FA1E37FFE39BA0A6214FCF75 /* Pods-CaravanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaravanTests.debug.xcconfig"; path = "Target Support Files/Pods-CaravanTests/Pods-CaravanTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,13 +153,13 @@
 				0469083D2723C11C00735B62 /* Preview Content */,
 				BC0E374B2724590D00D26C4A /* Travel.swift */,
 				BC0E375527248E6F00D26C4A /* HomeView.swift */,
+				BC885C26272546CC005EDDB3 /* Database.swift */,
 				BC0E37572724937B00D26C4A /* CardView.swift */,
 				BC0E37592724940900D26C4A /* CountryPageView.swift */,
 				BC0E375D2724DCFE00D26C4A /* DetailedTripView.swift */,
-				BC0E376B2725300F00D26C4A /* GoogleService-Info.plist */,
 				BC0E375F2725094100D26C4A /* Messager.swift */,
 				BC0E376127250BFD00D26C4A /* MessageRow.swift */,
-				BC0E376D2725301900D26C4A /* Database.swift */,
+				BC885C24272546BE005EDDB3 /* GoogleService-Info.plist */,
 				BC0E37632725172C00D26C4A /* BlogCardView.swift */,
 				BC0E37652725175800D26C4A /* BlogFeedView.swift */,
 			);
@@ -325,7 +325,7 @@
 			files = (
 				0469083F2723C11C00735B62 /* Preview Assets.xcassets in Resources */,
 				0469083C2723C11C00735B62 /* Assets.xcassets in Resources */,
-				BC0E376C2725300F00D26C4A /* GoogleService-Info.plist in Resources */,
+				BC885C25272546BE005EDDB3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +467,7 @@
 				BC0E37522724854500D26C4A /* ProfileView.swift in Sources */,
 				BC0E37582724937B00D26C4A /* CardView.swift in Sources */,
 				BC0E375E2724DCFE00D26C4A /* DetailedTripView.swift in Sources */,
-				BC0E376E2725301900D26C4A /* Database.swift in Sources */,
+				BC885C27272546CC005EDDB3 /* Database.swift in Sources */,
 				BC0E374E27245BE300D26C4A /* TravelRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
