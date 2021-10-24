@@ -1,4 +1,4 @@
-# Hackgt 8 Project
+# Hackgt 8 Project - Caravan App
 
 Use xcode
 brew install cocoapods
